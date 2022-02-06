@@ -1,0 +1,46 @@
+
+.containeritems{
+    display:flex;
+}
+
+.subtitle, .text{
+    flex: 1 1 0;
+}
+
+.container{
+    padding: 100px 400px;
+}
+
+.text{
+    background-color: #F2F2F2;
+    margin-left: 10px;
+    padding: 10px 30px 10px 30px;
+    line-height: 26px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr{
+    margin: 20px 0 30px 0;
+    background-color: #F4704A;
+    border: none;
+    height: 5px;
+}
+
+.title{
+    font-size: 96px;
+    font-weight: 700;
+    
+}
+
+.subtitle p{
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 1.5;
+    
+}
+.subtitle{
+    margin-right: 10px;
+}
+
