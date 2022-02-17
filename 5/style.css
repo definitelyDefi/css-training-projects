@@ -16,20 +16,15 @@ body, html{
     margin-right: auto;
     position: relative;
     display: flex;
-    
-
-    
 }
 
 .nav a{
-
     margin-top: 5px;
     text-decoration: none;
     font-size: 16px;
     text-transform: uppercase;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
-    
 }
 
 .nav{
@@ -37,7 +32,6 @@ body, html{
     display: flex;
     flex-grow: 1;
     justify-content: right;
-    
 }
 
 .nav a+a{
@@ -61,8 +55,9 @@ body, html{
     width: 100%;
     height: 744px;
     margin-bottom: 100px;
-    
 }
+
+/* Join block */
 
 .join__block__title{
     font-size: 45px;
@@ -95,6 +90,8 @@ body, html{
     right: 1;
     z-index: 1;
 }
+
+/* Description  */
 
 .description__colors{
     display: flex;
@@ -144,6 +141,8 @@ body, html{
     line-height: 15px;
 }
 
+/* Features */
+
 .features{
     display: flex;
     justify-content: center;
@@ -154,8 +153,6 @@ body, html{
     position: relative;
     width: 100%;
 }
-
-
 
 .features__item.black{
     padding-left: 200px;
@@ -184,17 +181,14 @@ body, html{
     color: #fff;
 }
 
-
 .features__item__icon img{
     position: absolute;
 }
-
 
 .features__item__button img{
     position: absolute;
     padding: 8px;
 }
-
 
 .features__item.green .features__item__button img{
     left: 370px;
@@ -211,13 +205,13 @@ body, html{
     background-color: #272727;
 }
 
+/* Viewmore */
+
 .viewmore{
     background: url("images/7.jpg") center no-repeat;
     height: 762px;
     position: relative;
     text-align: center;
-    
-    
 }
 
 .container{
@@ -225,20 +219,23 @@ body, html{
     padding-bottom: 133px;
 }
 
-
-
 .viewmore__text{
     color: #fff;
     font-family: 'Open Sans', sans-serif;
+    font-size: 33px;
     margin-bottom: 46px;
+    font-weight: 300;
 }
-.viewmore__text > b{
-    font-weight: 700;
-}
+
+/* Footer */
 
 .footer{
     height:40px;
     padding-top:30px;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+}
+
+.sans__bold{
+    font-weight: 700;
 }
