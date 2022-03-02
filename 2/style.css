@@ -1,17 +1,35 @@
 
-.containeritems{
+.container__items{
     display:flex;
-}
-
-.subtitle, .text{
-    flex: 1 1 0;
 }
 
 .container{
     padding: 100px 400px;
 }
 
-.text{
+.item__subtitle, .item__text{
+    flex: 1 1 0;
+}
+
+.item__title{
+    font-size: 96px;
+    font-weight: 700;
+    
+}
+
+.item__subtitle p{
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 1.5;
+}
+.item__subtitle{
+    margin-right: 10px;
+}
+
+
+.item__text{
     background-color: #F2F2F2;
     margin-left: 10px;
     padding: 10px 30px 10px 30px;
@@ -26,21 +44,6 @@ hr{
     height: 5px;
 }
 
-.title{
-    font-size: 96px;
-    font-weight: 700;
-    
-}
 
-.subtitle p{
-    font-size: 24px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    letter-spacing: normal;
-    line-height: 1.5;
-    
-}
-.subtitle{
-    margin-right: 10px;
-}
+
 
