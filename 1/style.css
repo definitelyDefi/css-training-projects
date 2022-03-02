@@ -1,29 +1,31 @@
 
+
+/* Global styling */
+
 body{
     background-color: #617587;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #fff;
 }
+
+/* Section */
 
 .section{
     display: flex;
     margin: 100px 300px 100px 300px;
     width: 70%;
-    
 }
 
 .section__item{
-    
     padding: 30px;
-    width: 30%;
-    
+    width: 30%; 
 }
+
 .section__item:last-child{
-    
     margin-top: 20px;
     width: 70%;
-    
 }
+
 .section__item h2{
     text-transform: uppercase;
     margin-bottom: 25px;
@@ -34,7 +36,6 @@ body{
 .section__item p, li{
     padding: 0%;
     margin: 5px;
-    font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 1rem;
 }
@@ -42,23 +43,26 @@ body{
 .section__item ul {
     padding-left: 0px;
     list-style: none;
-  }
+}
 
 .section__item li{
     padding-bottom: 7px;
 }
+
 .section__item ul li:before {
     content: '✓  ';
     padding-right: 10px;
+}
 
-  }
+/* Form */
+
 .form{
     display: flex; 
     flex-direction: row;
     width: 100%;
-    
 }
-.form input[type=text]{
+
+.form__input[type=text]{
     display: inline-flex;
     margin-left: 30px;
     margin-bottom: 20px;
@@ -70,15 +74,15 @@ body{
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 400;
-    
 }
-.form input::placeholder{
+
+.form__input::placeholder{
    color: #ffffff;
    padding:5px;
    font-size: 16px;
-   font-family: 'Open Sans', sans-serif;
    
 }
+
 .form textarea{
     display:block;
     margin-left: 30px;
@@ -91,48 +95,42 @@ body{
     font-weight: 400;
     text-decoration: none;
     text-decoration-color: #617587 ;
-    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     box-shadow: none;
     border: 2px solid #fff;
-   
     padding: 15px;
     overflow: auto;
     outline: none;
     -webkit-appearance: none;
     background: none; 
 }
+
 .checkbox{
-    
     margin: 25px 25px;
     font-weight: 0;
-    font-family: 'Open Sans', sans-serif;
     display: block;
     width: 100%;
-    
-
 }
+
 .checkbox a{
     color: #fff;
     text-decoration: none;
-    
-
 }
 
 .checkbox a:hover{
     color: rgba(255, 255, 255, 0.651);
 }
 
-.form input:focus{
+.form__input:focus{
     outline: 2px solid rgb(72, 37, 228);
     border: 2px solid #fff;
 }
-.form textarea:focus{
+.form__textarea:focus{
     outline: 2px solid rgb(72, 37, 228);
     border: 2px solid #fff;
-    
 }
-.abutton a{
+
+.submit__button a{
     text-transform: uppercase;
     text-decoration: none;
     color: black;
@@ -146,37 +144,46 @@ body{
     line-height: 25,6px;
     font-weight: 700;
     letter-spacing: 2px;
+    transition: 0.2s;
 }
+
+.submit__button a:hover{
+    background-color: #292E33;
+    color: #fff;
+}
+
+/* Socials */
+
 .socials{
     display:block;
     margin: 50px 25px;
-
 }
+
 .socials a{
     margin-left: 5px;
 }
 
+
+/* Footer */
+
 .footer{
+  
     position: fixed;
-    padding: 30px 10px 10px 10px;
     bottom: 0;
     left: 0;
+    padding: 30px 10px 10px 10px;
     width: 100%;
-    /* Height of the footer*/ 
     height: 40px;
     text-align: center;
     font-size: 12px;
-    font-family: 'Open Sans', sans-serif;
     background-color: #333333;
     font-weight: 100;
-    
 }
 
 .footer a{
     color: #fff;
-    
-    
 }
+
 .footer a:hover{
     color: rgba(255, 255, 255, 0.651);
 }
