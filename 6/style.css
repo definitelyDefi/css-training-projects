@@ -44,13 +44,23 @@ p{
     margin-top: 15px;
     font-family: 'Montserrat', sans-serif;
     color: #60a6c2;
-   
+
+}
+.elem:hover, .logo:hover{
+    color: #3b89a8;
+    transform: scale(1.1,1.1);
+    transition: .3s all ease ;
 }
 
 .icon{
-    
     width: 45px;
     height: 45px;
+}
+
+.icon:hover{
+    
+    transform: scale(1.1,1.1);
+    transition: .3s all ease ;
 }
 
 .icon:not(.icon.search){
