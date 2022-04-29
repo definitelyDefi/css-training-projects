@@ -1,18 +1,32 @@
+
+// imports
+
 @import "reset";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+// vars
+
+$green: #688F4E;
+$font : 'Poppins';
+$light-green: #B1D182;
+
+
+// containers
 
 .container{
     padding: 1px 115px 0px 115px;
 }
+
 .container.section{
     
     background: #fff;
     box-shadow: -50px 50px 200px #F2F2F2;
     border-radius: 5px;
     height: 962px;
-
-    
 }
+
+// nav bar
 
 .nav{
     display: flex;
@@ -92,6 +106,8 @@
 
 }
 
+// main screen
+
 .sign_in{
     padding: 1px 150px 0px 130px;
     &__policy{
@@ -100,7 +116,7 @@
         display: block;
         padding-top: 64px;
         text-decoration: none;
-        font-family: 'Poppins';
+        font-family: $font;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -116,7 +132,7 @@
         &-item-1{
             padding: 45px 211px 50px 161px;
             &-title{
-                font-family: 'Poppins';
+                font-family: $font;
                 font-style: normal;
                 font-weight: 500;
                 font-size: 36px;
@@ -129,7 +145,7 @@
             }
             &-suptitle{
                 margin-bottom: 63px;
-                font-family: 'Poppins';
+                font-family: $font;
                 font-style: normal;
                 font-weight: 500;
                 font-size: 14px;
@@ -142,7 +158,7 @@
 
                 &-link{
                     text-decoration: none;
-                    color: #688F4E;
+                    color: $green;
                 }
             }
             &-form{
@@ -150,7 +166,7 @@
                     margin-top: 24px;
                     margin-bottom: 14px;
                     
-                    font-family: 'Poppins';
+                    font-family: $font;
                     font-style: normal;
                     font-weight: 500;
                     font-size: 16px;
@@ -163,7 +179,7 @@
                 }
                 &-link{
                     display: block;
-                    font-family: 'Poppins';
+                    font-family: $font;
                     font-style: normal;
                     font-weight: 400;
                     font-size: 14px;
@@ -180,7 +196,7 @@
                     border-radius: 6px;
                     width: 426px;
                     padding: 20px 30px;
-                    font-family: 'Poppins';
+                    font-family: $font;
                 }
                 &-checkbox{
                     margin-bottom: 21px;
@@ -191,7 +207,7 @@
                     }
                     &-text{
                         
-                        font-family: 'Poppins';
+                        font-family: $font;
                         font-style: normal;
                         font-weight: 500;
                         font-size: 16px;
@@ -204,10 +220,10 @@
                 }
                 
                 &-btn{
-                    background: #688F4E;
-                    border: 2px solid #688F4E;
+                    background: $green;
+                    border: 2px solid $green;
                     border-radius: 6px;
-                    font-family: 'Poppins';
+                    font-family: $font;
                     padding: 19px 184px;
                     font-style: normal;
                     font-weight: 500;
@@ -216,7 +232,7 @@
 
                     color: #FFFFFF;
                     &:hover{
-                        color:#688F4E;
+                        color: $green;
                         background-color: #FFFFFF;
                         transition: .3s all ease;
                     }
@@ -227,11 +243,11 @@
             }
         }
         &-item-2{
-            border-left: 2px solid #B1D182;;
+            border-left: 2px solid $light-green;
             padding: 100px 205px 400px 162px;
             &-title{
                 margin-bottom: 8px;
-                font-family: 'Poppins';
+                font-family: $font;
                 font-style: normal;
                 font-weight: 500;
                 font-size: 24px;
@@ -244,7 +260,7 @@
             }
             &-suptitle{
                 margin-bottom: 48px;
-                font-family: 'Poppins';
+                font-family: $font;
                 font-style: normal;
                 font-weight: 300;
                 font-size: 14px;
@@ -259,10 +275,10 @@
 
             }
             &-btn{
-                background: #688F4E;
+                background: $green;
                 border-radius: 6px;
-                font-family: 'Poppins';
-                border: 2px solid #688F4E; 
+                font-family: $font;
+                border: 2px solid $green; 
                 padding: 19px 0;
                 width: 426px;
                 font-style: normal;
@@ -270,8 +286,9 @@
                 font-size: 16px;
                 line-height: 18px;
                 color: #FFFFFF;
+
                 &:hover{
-                    color:#688F4E;
+                    color:$green;
                     background-color: #FFFFFF;
                     transition: .3s all ease;
                 
