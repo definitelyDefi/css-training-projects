@@ -1,0 +1,95 @@
+.plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+  padding: 0px 20px;
+  margin: 30px auto;
+}
+
+.tariff__name {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.price {
+  font-weight: 900;
+  font-size: 18px;
+  margin-top: 0px;
+  font-weight: 400;
+}
+
+.change {
+  margin-left: 40px;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.text {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+.change:hover {
+  opacity: 0.5;
+  transition: 0.2s all ease;
+}
+.title {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.image {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.payment {
+  text-decoration: none;
+  display: block;
+  padding: 20px 20px;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  margin: 5px 30px 30px 30px;
+  text-align: center;
+  box-shadow: 0 3px 10px -2px hsl(223, 47%, 23%);
+  font-weight: 600;
+}
+
+.payment:hover {
+  background-color: hsl(263, 60%, 52%);
+  transition: 0.2s all ease;
+}
+.cancel {
+  font-weight: 600;
+  text-decoration: none;
+  display: block;
+
+  color: gray;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cancel:hover {
+  color: black;
+  transition: 0.2s all ease;
+}
