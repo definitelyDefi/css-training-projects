@@ -1,119 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 
-body{
-    background: hsl(217, 54%, 11%);
-    display: flex;
-    justify-content: center;
-    font-family: 'Outfit', sans-serif;
+body {
+  background: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  font-family: "Outfit", sans-serif;
 }
 
-.container{
-
-    margin-top: 100px;
-    padding: 35px;
-    border-radius: 15px;
-    background-color: hsl(216, 50%, 16%);
+.container {
+  margin-top: 100px;
+  padding: 35px;
+  border-radius: 15px;
+  background-color: hsl(216, 50%, 16%);
 }
 
-.name{
-    color: hsl(0, 0%, 100%);
-    font-weight: 600;
-    text-decoration: none;
-    display: block;
-    font-size: 25px;
-    margin-top: 25px;
+.name {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  text-decoration: none;
+  display: block;
+  font-size: 25px;
+  margin-top: 25px;
 }
 
-.description{
-    font-weight: 400;
+.description {
+  font-weight: 400;
 }
-.clockWrapper{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-weight: 400;
+.clockWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 400;
 }
-.daysLeft, .description, .author{
-    color: hsl(215, 51%, 70%);
-    font-size: 18px;
+.daysLeft,
+.description,
+.author {
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
 }
-.priceWrapper{
-    font-weight: 400;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    color: hsl(178, 100%, 50%);
-}
-
-.infoWrapper{
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
+.priceWrapper {
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: hsl(178, 100%, 50%);
 }
 
-.authorWrapper{
-    font-weight: 300;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    border-top: 1px solid rgba(255,255,255,0.25);
-    padding-top: 15px;
+.infoWrapper {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
-.image{
-    width: 450px;
-    border-radius: 15px;
-
+.authorWrapper {
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  padding-top: 15px;
 }
 
-.avatar{
-    width: 40px;
-    border: 2px solid white;
-    border-radius: 100%;
-    
+.image {
+  width: 450px;
+  border-radius: 15px;
 }
 
-.authorLink{
-    margin-left: 5px;
-    text-decoration: none;
-    color: hsl(0, 0%, 100%);
+.avatar {
+  width: 40px;
+  border: 2px solid white;
+  border-radius: 100%;
 }
 
-.authorLink:hover, .name:hover{
-    
-    color: hsl(178, 100%, 50%);
-    transition: .3s all ease;
+.authorLink {
+  margin-left: 5px;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
 }
 
-.imageWrapper:hover .placeholder{
-    opacity: 1;
-
-}
-.placeholder img{
-    position: absolute;
-    top: 50%;
-    left: 45%;
-
-}
-.placeholder{
-    transition: .5s ease;
-    background-color: hsl(178, 100%, 50%, 0.50);
-    border-radius: 15px;
-    opacity: 0;
-    
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    height: 100%;
+.authorLink:hover,
+.name:hover {
+  color: hsl(178, 100%, 50%);
+  transition: 0.3s all ease;
 }
 
-.image{
-    opacity: 1;
+.imageWrapper:hover .placeholder {
+  opacity: 1;
 }
-.imageWrapper{
-    position: relative;
+.placeholder img {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+}
+.placeholder {
+  transition: 0.5s ease;
+  background-color: hsl(178, 100%, 50%, 0.5);
+  border-radius: 15px;
+  opacity: 0;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
 }
 
+.image {
+  opacity: 1;
+  object-fit: contain;
+}
+.imageWrapper {
+  position: relative;
+}
